@@ -1,0 +1,46 @@
+
+*{
+  font-family: "Arima", system-ui;
+  font-optical-sizing: auto;
+  transition: 1s;
+}
+
+main {
+  width: 95dvw;
+  height: 100dvh;
+
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+ul li{
+  list-style: none;
+  margin: 2rem 1rem;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 8px;
+
+}
+
+ul li:hover{
+  background-color: gainsboro;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.centrar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centrar--centrarCascada{
+  flex-direction: column;
+}

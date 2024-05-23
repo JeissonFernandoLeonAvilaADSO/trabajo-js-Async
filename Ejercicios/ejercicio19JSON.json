@@ -1,0 +1,19 @@
+{
+  "user1": {
+    "nombre": "juan",
+    "edad": 18,
+    "sexo": "si"
+  },
+
+    "user2": {
+    "nombre": "alberto",
+    "edad": 19,
+    "sexo": "Hombre"
+  },
+
+    "user3": {
+    "nombre": "pedro",
+    "edad": 32,
+    "sexo": "no"
+  }
+}
