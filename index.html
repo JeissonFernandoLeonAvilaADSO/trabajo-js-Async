@@ -13,33 +13,236 @@
 
 <body class="centrar">
   <main class="centrar centrar--centrarCascada">
-    <h1><u>Seleccione un ejercicio</u></h1>
-    <ul class="centrar">
-      <li><a href="Ejercicios/Ejercicio1.html">Ejercicio 1</a></li>
-      <li><a href="Ejercicios/ejercicio2.html">Ejercicio 2</a></li>
-      <li><a href="Ejercicios/ejercicio3.html">Ejercicio 3</a></li>
-      <li><a href="Ejercicios/ejercicio4.html">Ejercicio 4</a></li>
-      <li><a href="Ejercicios/ejercicio5.html">Ejercicio 5</a></li>
-      <li><a href="Ejercicios/ejercicio6.html">Ejercicio 6</a></li>
-      <li><a href="Ejercicios/ejercicio7.html">Ejercicio 7</a></li>
-      <li><a href="Ejercicios/ejercicio8.html">Ejercicio 8</a></li>
-      <li><a href="Ejercicios/ejercicio9.html">Ejercicio 9</a></li>
-      <li><a href="Ejercicios/ejercicio10.html">Ejercicio 10</a></li>
-      <li><a href="Ejercicios/ejercicio11.html">Ejercicio 11</a></li>
-      <li><a href="Ejercicios/ejercicio12.html">Ejercicio 12</a></li>
-      <li><a href="Ejercicios/ejercicio13.html">Ejercicio 13</a></li>
-      <li><a href="Ejercicios/ejercicio14.html">Ejercicio 14</a></li>
-      <li><a href="Ejercicios/ejercicio15.html">Ejercicio 15</a></li>
-      <li><a href="Ejercicios/ejercicio16.html">Ejercicio 16</a></li>
-      <li><a href="Ejercicios/ejercicio17.html">Ejercicio 17</a></li>
-      <li><a href="Ejercicios/ejercicio18.html">Ejercicio 18</a></li>
-      <li><a href="Ejercicios/ejercicio19.html">Ejercicio 19</a></li>
-      <li><a href="Ejercicios/ejercicio20.html">Ejercicio 20</a></li>
-      <li><a href="Ejercicios/ejercicio21.html">Ejercicio 21</a></li>
-      <li><a href="Ejercicios/ejercicio22.html">Ejercicio 22</a></li>
-      <li><a href="Ejercicios/ejercicio23.html">Ejercicio 23</a></li>
-      <li><a href="Ejercicios/ejercicio24.html">Ejercicio 24</a></li>
-    </ul>
+    <h1><u>Ejercicios js</u></h1>
+      <details>
+        <summary>Ejercicio 1</summary>
+        <p>Escriba una función imprimirNumeros(desde, hasta) que genere un número cada segundo,
+          comenzando desde desde y terminando con hasta.
+          Haz dos variantes de la solución describiendo el paso a paso de cada una de ellas:
+        <ul>
+          <li>Usando setInterval.</li>
+          <li>Usando setTimeout anidado.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio1.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 2</summary>
+        <p>En el siguiente código hay una llamada programada setTimeout, luego se ejecuta un cálculo
+          pesado que demora más de 100 ms en finalizar.
+        <ul>
+          <li>¿Cuándo se ejecutará la función programada y por qué se ejecutará?</li>
+          <li>¿Qué va a mostrar alert()?</li>
+        </ul>
+        <button onclick="location.href='Ejercicios/ejercicio2.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 3</summary>
+        <p>Crear una función map que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Obtenga el resultado.</li>
+          <li>Lo pushee a un nuevo array.</li>
+          <li>Devuelva el array final con el resultado de cada una de las llamadas al callback.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio3.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 4</summary>
+        <p>Crear una función filter que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Si dicho callback devuelve true, pushea el elemento a un nuevo array.</li>
+          <li>Devuelva el array final con los elementos que pasaron el "filtro".</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio4.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 5</summary>
+        <p>Crear una función every que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Devuelva true si todas las llamadas al callback devolvieron true.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio5.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 6</summary>
+        <p>Crear una función some que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Devuelva true si al menos una de las llamadas al callback devolvió true.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio6.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 7</summary>
+        <p>Crear una función find que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Devuelva el elemento pasado como argumento del primer callback que devuelva true.</li>
+          <li>Si ningún callback devuelve true, devuelva undefined.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio7.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 8</summary>
+        <p>Crear una función findIndex que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Devuelva el índice del elemento pasado como argumento del primer callback que devuelva true.</li>
+          <li>Si ningún callback devuelve true, devuelva undefined.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio8.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 9</summary>
+        <p>Crear una función dropWhile que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Devuelva un array con los elementos a partir del primer callback que devolvió false.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio9.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 10</summary>
+        <p>Crear una función takeWhile que acepte un array y un callback y que:
+        <ul>
+          <li>Por cada elemento del array ejecute el callback pasándole dicho elemento como argumento.</li>
+          <li>Devuelva un array con los elementos hasta el primer callback que devolvió false.</li>
+        </ul>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio10.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 11</summary>
+        <p>¿Cuál es el resultado del código a continuación?
+        <pre>
+        // Código del ejercicio
+        </pre>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio11.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 12</summary>
+        <p>La función incorporada setTimeout utiliza callbacks. Crea una alternativa basada en promesas.
+          La función delay(ms) debería devolver una promesa que se resuelva después de ms milisegundos,
+          para que podamos agregarle .then, así:
+        <pre>
+        delay(3000).then(() => alert('hola'));
+        </pre>
+        </p>
+        <button onclick="location.href='Ejercicios/ejercicio12.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 13</summary>
+        <p>Crea una Promise que se resuelva después de 3 segundos y luego imprima "Promise resuelta"
+          cuando se cumpla.</p>
+        <button onclick="location.href='Ejercicios/ejercicio13.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 14</summary>
+        <p>Define una función asincrónica que espere 1 segundo y luego devuelva una cadena que diga
+          "Operación completada". Utiliza async/await.</p>
+        <button onclick="location.href='Ejercicios/ejercicio14.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 15</summary>
+        <p>Crea una Promise que se rechace después de 2 segundos y captura el error para imprimir
+          "Error: Promise rechazada".</p>
+        <button onclick="location.href='Ejercicios/ejercicio15.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 16</summary>
+        <p>Crea tres Promises consecutivas, donde cada una se resuelva después de 1 segundo y devuelva un
+          número diferente. Luego, encadena las tres Promises para sumar los resultados y mostrar el
+          resultado final.</p>
+        <button onclick="location.href='Ejercicios/ejercicio16.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 17</summary>
+        <p>Realiza una llamada a un archivo local utilizando fetch() y maneja la respuesta con Promises.
+          Imprime el contenido del archivo en la consola.</p>
+        <button onclick="location.href='Ejercicios/ejercicio17.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 18</summary>
+        <p>Implementa una función que haga varias llamadas fetch() a diferentes URLs y devuelva
+          todas las respuestas en un array utilizando Promise.all().</p>
+        <button onclick="location.href='Ejercicios/ejercicio18.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 19</summary>
+        <p>Escribe una función que reciba un array de URLs y utilice Promise.race() para obtener la respuesta
+          de la primera Promesa que se resuelva.</p>
+        <button onclick="location.href='Ejercicios/ejercicio19.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 20</summary>
+        <p>Implementa un temporizador con un botón de iniciar y detener, usando Promises y async/await.</p>
+        <button onclick="location.href='Ejercicios/ejercicio20.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 21</summary>
+        <p>Escribe una función que simule una operación de compra en línea utilizando Promises y async/await.
+          La función debe incluir la selección de un producto, el proceso de pago y la confirmación del pedido.</p>
+        <button onclick="location.href='Ejercicios/ejercicio21.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 22</summary>
+        <p>Realiza una secuencia de operaciones asincrónicas utilizando async/await donde se lea un archivo,
+          luego se procese su contenido y finalmente se guarde el resultado en un nuevo archivo.</p>
+        <button onclick="location.href='Ejercicios/ejercicio22.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 23</summary>
+        <p>Implementa una función que haga peticiones a una API para obtener datos de un usuario y sus
+          publicaciones utilizando async/await. Imprime ambos resultados en la consola.</p>
+        <button onclick="location.href='Ejercicios/ejercicio23.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 24</summary>
+        <p>Escribe una función que maneje una serie de operaciones asincrónicas donde cada operación dependa
+          del resultado de la anterior, utilizando async/await.</p>
+        <button onclick="location.href='Ejercicios/ejercicio24.html'">Ir al ejercicio</button>
+      </details>
+
+      <details>
+        <summary>Ejercicio 25</summary>
+        <p>Crea una interfaz de usuario sencilla con un botón que, al hacer clic, realice una operación
+          asincrónica y muestre el resultado en la página.</p>
+        <button onclick="location.href='Ejercicios/ejercicio25.html'">Ir al ejercicio</button>
+      </details>
   </main>
 </body>
 

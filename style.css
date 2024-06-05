@@ -1,8 +1,14 @@
-
 *{
   font-family: "Arima", system-ui;
   font-optical-sizing: auto;
   transition: 1s;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body{
+  background-color: black;
 }
 
 main {
@@ -11,36 +17,44 @@ main {
 
 }
 
+p{
+  margin: var(--mrgn) var(--mrgn);
+}
+
 ul{
-  display: flex;
-  flex-wrap: wrap;
-
+  margin: var(--mrgn) var(--mrgn);
 }
 
-ul li{
-  list-style: none;
-  margin: 2rem 1rem;
-  padding: 20px;
-  border: 1px solid black;
+button{
+  margin: var(--mrgn) 10px;
+  width: calc(90%);
+  background-color: black;
+  border: 1px solid aquamarine;
   border-radius: 8px;
-
 }
 
-ul li:hover{
-  background-color: gainsboro;
-}
-
-ul li a{
-  text-decoration: none;
-  color: black;
+details{
+  padding: 20px 0px;
+  margin: 10px;
+  border: 1px solid aquamarine;
+  transition: 1s;
+  border-radius: 8px;
+  width: calc(80%);
 }
 
 .centrar{
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .centrar--centrarCascada{
   flex-direction: column;
+}
+
+
+:root{
+  --mrgn: 20px
+
 }
